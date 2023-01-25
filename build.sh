@@ -7,7 +7,7 @@ trap "rm -rf temp/tmp.*" INT
 
 : >build.md
 
-toml_prep "$(cat 2>/dev/null "${1:-config.toml}")" || abort "could not find config file '${1}'"
+toml_prep "$(cat 2>/dev/null "${1:-config-rv-ex.toml}")" || abort "could not find config file '${1}'"
 main_config_t=$(toml_get_table "")
 COMPRESSION_LEVEL=$(toml_get "$main_config_t" compression-level) || abort "ERROR: compression-level is missing"
 ENABLE_MAGISK_UPDATE=$(toml_get "$main_config_t" enable-magisk-update) || abort "ERROR: enable-magisk-update is missing"
