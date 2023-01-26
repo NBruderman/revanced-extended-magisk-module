@@ -1,6 +1,6 @@
 {
   "version": "v5.41.50",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/NBruderman/revanced-extended-magisk-module/releases/download/3/music-revanced-extended-magisk-v5.41.50-arm64-v8a.zip",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/NBruderman/revanced-extended-magisk-module/releases/download/4/music-revanced-extended-magisk-v5.41.50-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/NBruderman/revanced-extended-magisk-module/update/build.md"
 }
